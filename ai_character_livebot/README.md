@@ -23,4 +23,14 @@ git clone https://github.com/username/ai-character-livebot.git
 cd ai-character-livebot
 ```
 
-#### 2. running
+#### 2. Install dependencys
+
+```bash
+  pip install -r requirements.txt
+```
+
+### 3. Jalankan aplikasi
+
+```bash
+python main.py
+```
