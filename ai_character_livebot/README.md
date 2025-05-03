@@ -12,6 +12,61 @@ Proyek ini adalah bot **AI Karakter 2D** yang dapat **membaca komentar di live s
 - **Karakter 2D**: Karakter akan **berubah ekspresi** sesuai dengan emosi komentar.
 - **Integrasi OBS/VTube Studio**: Karakter 2D dapat dikendalikan dalam OBS atau VTube Studio untuk digunakan dalam live stream.
 
+## 📁 Struktur Folder
+
+```bash
+ai_character_livebot/
+├── main.py                        # Entry point program utama
+├── config.py                      # Pengaturan umum dan loader konfigurasi
+├── .env                           # File konfigurasi rahasia (API Key, dsb)
+├── .gitignore                     # File/folder yang diabaikan Git
+├── requirements.txt               # Daftar dependency Python
+├── README.md                      # Dokumentasi proyek
+
+├── ai/
+│   ├── chatgpt_responder.py       # Modul komunikasi dengan OpenAI ChatGPT
+│   ├── memory_manager.py          # Pengelola memori percakapan
+│   └── persona.json               # Deskripsi kepribadian karakter AI
+
+├── chat/
+│   └── youtube_listener.py        # Modul pembaca komentar dari YouTube Live
+
+├── voice/
+│   ├── tts_engine.py              # Modul Text-to-Speech
+│   ├── voice_config.py            # Konfigurasi suara
+│   ├── sounds/                    # Folder suara hasil TTS
+│   └── icons/                     # Ikon suara atau notifikasi
+│ 
+├── character/
+│   ├── character_controller.py    # Kendali karakter dan ekspresi
+│   ├── emotion_detector.py        # Deteksi emosi berdasarkan teks
+│   └── assets/                    # Gambar ekspresi karakter (png/gif)
+├── controller/
+│   └── stream_control.py          # Pengontrol OBS/VTube Studio
+│ 
+├── logs/
+│   ├── chat_log.txt               # Log komentar yang dibaca
+│   ├── ai_responses.txt           # Log respons dari AI
+│   └── errors.log                 # Log error aplikasi
+│ 
+├── utils/
+│   ├── logger.py                  # Konfigurasi logging
+│   └── helpers.py                 # Fungsi bantu umum
+├── memory/
+│   ├── user_sessions.json         # Data sesi pengguna
+│   └── recent_messages.txt        # Riwayat pesan terakhir
+├── tests/
+│   ├── test_ai.py                 # Unit test untuk AI responder
+│   ├── test_chat.py               # Unit test pembaca komentar
+│   ├── test_voice.py              # Unit test TTS
+│   ├── test_emotion.py            # Unit test emosi
+│   └── test_character.py          # Unit test ekspresi karakter
+└── docs/
+    ├── architecture_diagram.png   # Diagram arsitektur sistem
+    ├── setup_guide.md             # Panduan instalasi
+    └── roadmap.md                 # Perencanaan fitur mendatang
+
+
 ## Instalasi
 
 ### 1. Clone Repositori

@@ -1,1 +1,12 @@
- 
+openai>=1.0.0
+pytchat
+python-dotenv
+pyttsx3
+gtts
+websocket-client
+requests
+flask
+pyaudio
+numpy
+opencv-python
+loguru
