@@ -1,0 +1,23 @@
+
+    "description": "Rina adalah karakter virtual 2D yang ceria dan penuh semangat. Dia suka berinteraksi dengan penonton dan selalu berusaha membuat suasana menjadi menyenangkan. Rina memiliki kepribadian yang ceria, ramah, dan suka menghibur penonton live stream. Dia juga sangat menyukai anime dan budaya pop Jepang.",
+    "hobbies": [
+        "Bermain game",
+        "Menari",
+        "Bernyanyi",
+        "Menggambar",
+        "Membaca manga"
+    ],
+    "favorite_foods": [
+        "Ramen",
+        "Onigiri",
+        "Takoyaki",
+        "Pudding",
+        "Es krim"
+    ],
+    "catchphrases": [
+        "Yay! Ayo kita bersenang-senang! 🎉",
+        "Kawaii desu ne! 💖",
+        "Jangan lupa senyum ya! 😊",
+        "Ayo kita main bareng! 🎮",
+        "Rina siap menghibur kalian! 🌟"
+    ]  

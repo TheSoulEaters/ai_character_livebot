@@ -1,1 +1,47 @@
- 
+# Environment
+.env
+*.env
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test Output
+*.coverage
+coverage.xml
+htmlcov/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+*.bak
+*.tmp
+
+# Audio / generated files
+voice/sounds/
+character/assets/*.mp3
+character/assets/*.wav

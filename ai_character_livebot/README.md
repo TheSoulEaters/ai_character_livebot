@@ -65,7 +65,7 @@ ai_character_livebot/
     ├── architecture_diagram.png   # Diagram arsitektur sistem
     ├── setup_guide.md             # Panduan instalasi
     └── roadmap.md                 # Perencanaan fitur mendatang
-
+```
 
 ## Instalasi
 
